@@ -24,7 +24,7 @@
             var hps = []; // Hovers per second
 
             function http_request() {
-                var hover_at = new Date().toLocaleString(); // Hover time 12/5/2020, 12:26:50 PM
+                var hover_at = new Date().toLocaleTimeString(); // Hover time 12:26:50 PM
 
                 if(typeof(hps[hover_at]) === 'undefined') {
                     hps[hover_at] = 1;
